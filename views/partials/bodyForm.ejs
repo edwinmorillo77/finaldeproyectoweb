@@ -1,0 +1,42 @@
+<style>
+    body {
+        background-color: rgb(68, 82, 95);
+    }
+    </style>
+
+<center>
+<h1 id="Nosotrosform" style="background-color: rgb(45, 45, 65); color: white;">Reservaciones</h1>
+</center>
+     <section>
+      <div class="containerdeform">
+
+        <form action="/form" method="POST" id="my-form">
+    
+          <div class="form-group">
+            <label for="nombre"> Nombre: </label>
+            <input type="text" id="firstName" name="nombre" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="apellido">Apellido: </label>
+            <input type="text" id="lastName" name="apellido" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="correo" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="massage">Fecha de reservación (Formato: YY/MM/DD)</label>
+            <textarea name="reservacion" id="massage" cols="30" rows="10" required></textarea>
+          </div>
+    
+          <button type="submit">Enviar</button>
+          <button type="reset">Eliminar</button>
+        </form>
+      </div>
+      <div id="status"></div>
+    </section>
+  </div>
+  </div>

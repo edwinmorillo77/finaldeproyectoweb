@@ -1,0 +1,305 @@
+body
+{
+  background-color: #212121;
+  align-items: left;
+}
+
+
+
+#barra
+{
+  background-color:#d63f3f; 
+  height: 8px;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logoinicio
+{
+  
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: #ffffff00;
+   background-color: #00000028;
+   box-shadow: 15px 60px 75px;
+   border-radius: 50px;
+
+} 
+
+
+ 
+ .button {
+    background-color: #ffffff;
+    border: none;
+    color: rgba(255, 255, 255, 0);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left :180px;
+
+  }
+  
+  .button1 {
+    background-color: #d63f3f; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    
+  }
+
+  .boton{
+    background-color: #ffffff; 
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left :175px 
+  }
+  
+  .boton1 {
+    background-color: #00eeff98; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+    margin-left :15px;
+    
+  }
+
+  .boton1:hover {
+    background-color: #00eeff41; 
+    color: white;
+    border-radius: 30px;
+  }
+
+  
+  .button1:hover {
+    background-color: #ff000081;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  
+  .button2 {
+    background-color: #d63f3f; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+  
+  .button2:hover {
+    background-color: #ff000081;
+    color: white;
+    border-radius: 30px;
+  }
+  
+  .button3 {
+    background-color: #d63f3f; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+  
+  .button3:hover {
+    background-color: #ff000081;
+    color: white;
+    border-radius: 30px;
+  }
+
+
+  .button3 {
+    background-color: #d63f3f; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+  
+  
+  .button4 {
+    background-color: #757575; 
+    color: rgb(255, 255, 255); 
+    border-radius: 10px;
+  }
+  
+  .button4:hover {
+    background-color: #ff000081;
+    color: white;
+    border-radius: 30px;
+  }
+
+
+.map
+{
+  width: 1360px;
+  border: 3px solid #d63f3f;
+  height: 600px;
+  margin-bottom: -8%;
+
+}
+ .btnbtn1
+{
+  border: 5px solid rgb(172, 53, 53);
+  background: none;
+  padding: 10px 80px;
+  font-size: 70px;
+  font-family: "montserrat";
+  margin: 70px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin-left: -25px;
+  color: white;
+  margin-left: 28%;
+}
+
+
+
+.mapa
+{
+  margin-left: -1%;
+}
+
+
+footer{
+  position: absolute;
+  bottom: -2000px;
+  left: -0px;
+  right: -290px;
+  background: rgb(172, 53, 53);
+  height: auto;
+  width: 99vw;
+  font-family: "Open Sans";
+  padding-top:-10px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 800px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: rgb(102, 255, 0);
+}
+
+.footer-bottom{
+  background: #000;
+  width: 99vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.aboutv2{
+  background: url(../image/grill.jpg) no-repeat left;
+  background-size: 80%;
+  overflow: hidden;
+  padding: 190px 200px;
+  margin-top: 10%;
+}
+.inner-sectionv2{
+  width: 95%;
+  float: right;
+  background-color: #fcfff4;
+  padding: 90px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.411);
+  margin-right: -50%;
+  font-size: 20px;
+  margin-top: 10%;
+}
+.inner-sectionv2 h1{
+  margin-bottom: 20px;
+  font-size: 67px;
+  font-weight: 900;
+}
+
+
+
+
+
+
+
+.elbutton {
+  background-color: #5f2828;
+  border: none;
+  color: rgba(255, 255, 255, 0);
+  padding: 22px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left : 2px;
+  margin-bottom: -40%;
+
+}
+
+
+.elbutton1 {
+  background-color: #8f7d65;
+  color: rgb(255, 255, 255); 
+  border-radius: 10px;
+  
+}
+
+.elbutton1:hover {
+  background-color: #643f0e;
+  color: white;
+  border-radius: 30px;
+}

@@ -1,0 +1,32 @@
+<table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nombres</th>
+        <th scope="col">Apellidos</th>
+        <th scope="col">Correo electrónico</th>
+        <th scope="col">Fecha de reservación</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <% for(var i=0; i < results.length; i++) { %>
+
+      <tr>
+
+        <td><%= results[i].id %></td>
+        
+        <td><%= results[i].nombre %></td>
+        
+        <td><%= results[i].apellido %></td>
+        
+        <td><%= results[i].correo %></td>
+
+        <td><%= results[i].reservacion%></td>
+
+      </tr>
+
+      <%} %>
+
+    </tbody>
+  </table>
